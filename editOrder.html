@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Place Order</title>
+    <title>Edit Order</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -93,92 +93,90 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <div class="col-lg-6 " style="float: left;">
+                    <div>
                         <div class="p-5 ">
 
                             <div class="text-center ">
-                                <h1 style="color:lightgray;">Tell Us Your Order</h1>
+                                <div class="font-weight-bold text-uppercase mb-4 " style="font-size: 40px;color:lightgray">Edit Your Order
+                                    <img src="pics\thought.svg" style="margin-left: 5%;color:#0275d8; width: 100px;height: 100px; ">
+
+                                    <!-- <i class="fas fa-shopping-bag fa-2x " style="float: right; color:#0275d8 "></i> -->
+                                </div>
                                 <br>
                             </div>
                             <table id=" menuTable" class="table table-bordered table-striped ">
                                 <thead>
                                     <tr style="color:lightgray; ">
-                                        <th>ID</th>
+                                        <th>Sr.</th>
                                         <th>Food</th>
+                                        <th>Quantity</th>
                                         <th>Price</th>
-                                        <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr style="color:lightgray; ">
                                         <td>1</td>
-                                        <td>Zinger Burger</td>
+                                        <td>
+                                            <select id="menu" style="border-color: rgba(0, 0, 0, 0.596);text-align: center;text-decoration: underline;">
+                                                <option value="foodname">Zinger Burger</option>
+                                                <option value="foodname">Chicken Chowmen</option>
+                                                <option value="foodname">Beef Burger</option>
+                                                <option value="foodname">Chicken Pizza</option>
+                                              </select>
+                                        </td>
+                                        <td><input type="text" value="4" style="width: 20%;border-color: rgba(0, 0, 0, 0.596);text-align: center;text-decoration: underline;"></td>
                                         <td>350 pkr</td>
-                                        <td><a href=# style="color:lightgray;text-decoration: underline; ">Order</a>&nbsp;/&nbsp;<a href=# style="color:lightgray;text-decoration: underline; ">Recipe</a></td>
                                     </tr>
                                     <tr style="color:lightgray; ">
                                         <td>2</td>
-                                        <td>Chicken Chowmen</td>
-                                        <td>950 pkr</td>
-                                        <td><a href=# style="color:lightgray;text-decoration: underline; ">Order</a>&nbsp;/&nbsp;<a href=# style="color:lightgray;text-decoration: underline; ">Recipe</a></td>
+                                        <td>
+                                            <select id="menu" style="border-color: rgba(0, 0, 0, 0.596);text-align: center;text-decoration: underline;">
+                                            <option value="foodname">Chicken Chowmen</option>
+                                          </select>
+                                        </td>
+                                        <td><input type="text" value="3" style="width: 20%;border-color: rgba(0, 0, 0, 0.596);text-align: center;text-decoration: underline;"></td>
+                                        <td>2350 pkr</td>
                                     </tr>
                                     <tr style="color:lightgray; ">
                                         <td>3</td>
-                                        <td>Beef Chowmen</td>
+                                        <td>
+                                            <select id="menu" style="border-color: rgba(0, 0, 0, 0.596);text-align: center;text-decoration: underline;">
+                                            <option value="foodname">Beef Burger</option>
+                                          </select>
+                                        </td>
+                                        <td><input type="text" value="2" style="width: 20%;border-color: rgba(0, 0, 0, 0.596);text-align: center;text-decoration: underline;"></td>
                                         <td>850 pkr</td>
-                                        <td><a href=# style="color:lightgray;text-decoration: underline; ">Order</a>&nbsp;/&nbsp;<a href=# style="color:lightgray;text-decoration: underline; ">Recipe</a></td>
                                     </tr>
                                     <tr style="color:lightgray; ">
                                         <td>4</td>
-                                        <td>Special Pizza</td>
-                                        <td>1350 pkr</td>
-                                        <td><a href=# style="color:lightgray;text-decoration: underline; ">Order</a>&nbsp;/&nbsp;<a href=# style="color:lightgray;text-decoration: underline; ">Recipe</a></td>
-                                    </tr>
-                                    <tr style="color:lightgray; ">
-                                        <td>5</td>
-                                        <td>Chicken Kebab</td>
-                                        <td>550 pkr</td>
-                                        <td><a href=# style="color:lightgray;text-decoration: underline; ">Order</a>&nbsp;/&nbsp;<a href=# style="color:lightgray;text-decoration: underline; ">Recipe</a></td>
+                                        <td>
+                                            <select id="menu" style="border-color: rgba(0, 0, 0, 0.596);text-align: center;text-decoration: underline;">
+                                            <option value="foodname">Chicken Pizza</option>
+                                          </select>
+                                        </td>
+                                        <td><input type="text" value="1" style="width: 20%;border-color: rgba(0, 0, 0, 0.596);text-align: center;text-decoration: underline;"></td>
+                                        <td>950 pkr</td>
                                     </tr>
                                 </tbody>
                             </table>
+                            <div class="Center" style="margin-left: 40%;">
+                                <button style="text-decoration: underline;">1</button>
+                                <button style="text-decoration: underline;">2</button>
+                                <button style="text-decoration: underline;">3</button>
+                                <button style="text-decoration: underline;">4</button>
+                                <button style="text-decoration: underline;">5</button>
+                            </div>
                             <br>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-md-6 mb-4 " style="float: left;margin-top: 10%;margin-left: 15%; ">
-                        <div class="card border-left-success shadow h-100 py-2 ">
-                            <div class="card-body " style="width: auto; ">
-                                <div class="row no-gutters align-items-center ">
-                                    <div class="col mr-2 ">
-                                        <div class="font-weight-bold text-uppercase mb-4 text-primary " style="font-size: large;text-decoration: underline; ">Cart
-
-                                            <i class="fas fa-shopping-bag fa-2x " style="float: right; color:#0275d8 "></i>
-                                        </div>
-                                        <div class="col-auto ">
-                                        </div>
-                                        <div class="h5 mb-0 font-weight-bold text-primary "><a href=#>Zinger Burger&nbsp;&nbsp;&nbsp;&nbsp;</a>650<sup>pkr</sup></div>
-                                        <hr class="sidebar-divider d-none d-md-block ">
-                                        <div class="h5 mb-0 font-weight-bold text-primary "><a href=#>Special Pizza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>900<sup>pkr</sup></div>
-                                        <hr class="sidebar-divider d-none d-md-block ">
-                                        <div class="h5 mb-0 font-weight-bold text-primary "><a href=#>Chicken Kebab&nbsp;&nbsp;&nbsp;&nbsp;</a>550<sup>pkr</sup></div>
-                                        <hr class="sidebar-divider bg-dark ">
-                                        <br>
-                                        <div class="h5 mb-0 font-weight-bold border-left-success " style="color: #5cb85c; ">Price: &nbsp;&nbsp;&nbsp;&nbsp;4450 pkr</div>
-                                    </div>
-
-                                </div>
+                            <div style="border-radius: 25px;width: 50%;margin-left: 40%;">
+                                <button class="btn btn-success btn-user btn-block row" style="border-radius: 25px;width: 30%;">
+                                        Submit
+                                    </button>
                             </div>
                         </div>
                     </div>
 
                     <!-- /.container-fluid -->
 
-                </div>
-                <div style="border-radius: 25px;width: 50%;float:left;">
-                    <button class="btn btn-success btn-user btn-block row" style="border-radius: 25px;width: 30%;">
-                            Place Order
-                        </button>
                 </div>
                 <!-- End of Main Content -->
             </div>
