@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Edit Food</title>
+    <title>Give Review</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -92,22 +92,25 @@
                 <img src="pics\createMenu.svg" alt="Image Not Found" style="width: 400px;height: 400px;float: right;margin-top: 5%;margin-right: 5%;">
                 <div class="container-fluid">
 
-                    <h1 style="margin-top: 5%; color:lightgrey">Edit Selected food</h1>
+                    <h1 style="margin-top: 5%; color:lightgrey">How was your experience</h1>
                     <hr class="sidebar-divider bg-dark " style="width: 30%;float: left; ">
                     <div class="dropdown mb-4">
                         <div class="col-lg-6">
                             <div class="p-5">
                                 <form class="user">
                                     <div class="form-group row">
-                                        <div class="col-sm-6 mb-3 mb-sm-0">
-                                            <input type="name" class="form-control form-control-user" id="foodname" value="Zinger Burger" style="border-radius: 25px;float: left;">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <input type="contact" class="form-control form-control-user" id="foodprice" value="450 pkr" style="border-radius: 25px;float: left;">
+                                    </div>
+                                    <div class="dropdown mb-4">
+                                        <button class="btn bg-light dropdown-toggle border-left-primary" style="margin-top: 2%;color:#4e73df;;padding: .25em 0.7em;font-size: large;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Give Rating
+                                        </button>
+                                        <div class="dropdown-menu animated--fade-in" aria-labelledby="dropdownMenuButton" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
+                                            <a class="dropdown-item" style="color:#4e73df;" href="#">0 stars</a>
+                                            <a class="dropdown-item" style="color:#4e73df;" href="#">2</a>
                                         </div>
                                     </div>
 
-                                    <textarea class="form-control" style="border-radius: 25px;" rows="3" id="complaint" placeholder="Selected Food Description..."></textarea>
+                                    <textarea class="form-control" style="border-radius: 25px;" rows="3" id="complaint" placeholder="Briefly explain your experience..."></textarea>
                                     <button class="btn btn-success" style="margin-left: 30%;margin-top: 2.7%;border-radius: 25px;font-size: large; padding: .35em 4em;">
                                             Submit
                                             </button>
